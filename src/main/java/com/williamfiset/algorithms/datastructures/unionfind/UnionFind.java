@@ -56,7 +56,8 @@ public class UnionFind {
   // This is an alternative recursive formulation for the find method
   // public int find(int p) {
   //   if (p == id[p]) return p;
-  //   return id[p] = find(id[p]);
+  //   id[p] = find(id[p]);
+  //   return id[p];
   // }
 
   // Return whether or not the elements 'p' and
